@@ -112,11 +112,11 @@ function App  () {
             <div className={`select_region ${darkMode ? 'darkMode' : ''}`}>
                <select name="Filter by Region" id="Filter by Region" ref={regionRef} onChange={selectRegion}>
                  <option value="Filter by Region">Filter by Region</option>
-                 <option>Africa</option>
-                 <option>Americas</option>
-                 <option>Asia</option>
-                 <option>Europe</option>
-                 <option>Oceania</option>
+                 <option>Africa</option><br>
+                 <option>Americas</option><br>
+                 <option>Asia</option><br>
+                 <option>Europe</option><br>
+                 <option>Oceania</option><br>
               </select>
             </div>
           </div>
