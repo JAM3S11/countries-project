@@ -195,6 +195,7 @@
   padding: 10px;
   font-size: bold;
   cursor: pointer;
+  border-radius: 5px;
 }
 .back.darkMode{
   background-color: var(--dark-mode-elements);
