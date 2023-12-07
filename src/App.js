@@ -110,8 +110,8 @@ function App  () {
               <input type="text" placeholder="Search for a country...." ref={countriesInputRef} onChange={searchCountries}></input>
             </div>
             <div className={`select_region ${darkMode ? 'darkMode' : ''}`}>
-              <select ref={regionRef} onChange={selectRegion}>
-                 <option>All</option>
+               <select name="Filter by Region" id="Filter by Region" ref={regionRef} onChange={selectRegion}>
+                 <option value="Filter by Region">Filter by Region</option>
                  <option>Africa</option>
                  <option>Americas</option>
                  <option>Asia</option>
