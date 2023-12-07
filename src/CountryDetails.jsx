@@ -54,7 +54,7 @@ function CountryDetails ({ darkMode, countries, refetch })  {
         <div className="button">
           <button className={`back ${darkMode ? 'darkMode' : ''}`} onClick={goBack}>
             <ArrowBackIcon />
-            <p>Go Back</p>
+            <p>Back</p>
           </button>
         </div>
 
